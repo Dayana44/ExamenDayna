@@ -1,23 +1,22 @@
 <html>
 <head>
 <title> ingresar clave y su repeticion </title>
-<script>	
+<script>
 function comprobarclave(){
-	clave1 = document.f1.clave1.value
+    clave1 = document.f1.clave1.value
 	clave2 = document.f1.clave2.value
 
 
 	if (clave1 == "dayana" && clave2 == "giron"){
 		alert("los datos coiciden...\n Bienvenido");
-		var href="paginaexamen.html";
+		var href="paginaexa.html";
 		window.location=href;
 		}
 
 
-
 		else{
 			alert("Las dos claves son diferentes...\nIntentelo de nuevo.");
-			var href = "examen.html";
+			var href = "exa.html";
 			window.location=href;
 		};
 
@@ -25,19 +24,18 @@ function comprobarclave(){
     </script>
     </head>
 
-    <body bgcolor="#90EE90">
+    <body background="playa.jpg">;
 
-    <h1> Ingresar clave y su repeticion </h1>
+   <center> <h1> Ingresar clave y su repeticion </h1> </center>
     <br>
-    Escriba las contraseñas correctas para ingresar ala pagina para ver si iguales.
-
-    <br>
+    <center> Escriba las contraseñas correctas para ingresar ala pagina para ver si iguales. </center>
+     <br>
     <form action="" name="f1">
-    clave: <input type="pasword" name="clave1" size="20">
+   <center> clave: <input type="pasword" name="clave1" size="20"> </center>
+   <br>
+   <center>  Repite clave: <input type="pasword" name="clave2" size="20">  </center>
     <br>
-    Repite clave: <input type="pasword" name="clave2" size="20">
-    <br>
-    <input type="button" value="comprobar si son iguales" onclick="comprobarclave()">
+   <center> <input type="button" value="comprobar si son iguales" onclick="comprobarclave()"> </center>
 
 </form>
 
