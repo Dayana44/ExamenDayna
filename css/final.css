@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PaginaExamen</title>
+<style type="tezz.final.css">
+form{
+padding: 60px;
+max-width: 400px;
+background-color:;
+margin: 0 auto;
+font-family: cursive;
+color: ;
+}
+form input{
+margin bottom: 15px;
+font-style: : italic;
+width:300px;
+height: 550px;
+float: left;
+margin-top: 15px;
+margin-right: 20px;
+}
+body{
+	
+
+background-image: url("playa.jp"); 
+}
+h1 {
+font-style:45px;
+font-family: serif;
+color: yellow;
+-webkit-text-stroke:1.5px; 
+  -webkit-text-stroke-color:skyblue;
+  padding: 5px;
+}
+p {
+
+font-family: serif;
+font-size: 25px;
+color: yellow;
+}
+h4 {
+
+font-family: serif;
+font-size: 20px;
+color: pink;
+
+}
+a:hover{
+	color:yellow;
+	background: :green;
+
+}
+.greenlink:hover{
+	 color: orange;
+	 background: red;
